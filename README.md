@@ -1,5 +1,5 @@
 # 1次元モンテカルロ位置推定 (MCL) の実装
-1次元空間におけるロボットの自己位置推定を、パーティクルフィルタ（MCL: Monte Carlo Localization）を用いて実装したものです。
+1次元空間におけるロボットの自己位置推定を, パーティクルフィルタ（MCL: Monte Carlo Localization）を用いて実装したものです.
 
 ## 実行結果
 ![MCL Simulation](./mcl_result.gif)
