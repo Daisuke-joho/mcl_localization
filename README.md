@@ -1,15 +1,6 @@
 # モンテカルロ位置推定(MCL)の実装
 1次元空間におけるロボットの自己位置推定を, MCLを用いて実装したものです.
 
-## 実行手順
-  ```
-# 1. リポジトリのクローン
-git clone https://github.com/Daisuke-joho/mcl_localization.git
-cd mcl_localization
-
-# 2. 実行（実行後に mcl_result.gif が生成されます）
-python3 main.py
-  ```
 ## アルゴリズムの説明
 
 ### 1. 移動更新
@@ -23,6 +14,16 @@ python3 main.py
 
 ### 3. リサンプリング
 重みに基づいてパーティクルをコピーします.これにより、尤度の低いパーティクルが排除され, ロボットの真値に近い位置に分布が収束します.
+
+## 実行手順
+  ```
+# 1. リポジトリのクローン
+git clone https://github.com/Daisuke-joho/mcl_localization.git
+cd mcl_localization
+
+# 2. 実行（実行後に mcl_result.gif が生成されます）
+python3 main.py
+  ```
 
 ## シミュレーション結果
 ![MCL Simulation](./mcl_result.gif)
